@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [[No Variations]] of Project [USB-C_Power_Measurement.PrjPcb]
+   Generated File[Pick Place for PCB_Power_Measurement.csv]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 7:38:19 PM On 8/11/2022

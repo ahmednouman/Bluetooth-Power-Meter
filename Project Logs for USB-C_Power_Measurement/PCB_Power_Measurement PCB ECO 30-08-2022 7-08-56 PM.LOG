@@ -1,0 +1,7 @@
+Change Component Designator: OldDesignator=AUX_VBUS NewDesignator=J10
+Added Member To Class: ClassName=Power_Measurement Member=Component IC4 OPA188AIDR
+Added Member To Class: ClassName=Power_Measurement Member=Component R24 10 kOhms
+Added Member To Class: ClassName=Power_Measurement Member=Component R26 10 kOhms
+Added Member To Class: ClassName=Power_Measurement Member=Component R27 30 kOhms
+Added Member To Class: ClassName=Power_Measurement Member=Component R28 110 kOhms
+Added Member To Class: ClassName=Power_Measurement Member=Component R29 1 kOhms

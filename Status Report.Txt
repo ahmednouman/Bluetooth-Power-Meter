@@ -1,0 +1,10 @@
+Output: Report Board Stack
+Type  : Report Board Stack
+From  : Project [Free Documents]
+   Generated File[PCB_Power_Measurement.xls]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 2:01:59 PM On 23/11/2022

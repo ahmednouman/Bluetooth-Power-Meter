@@ -1,0 +1,35 @@
+Added Component: Designator=J1(GCT_USB4155-03-C_REVA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "{'manufacturer': u'Global Connector Technology'}"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "USB4155-03-C_REVA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J1-A1
+Added Pin To Net: NetName=NetJ1_A2 Pin=J1-A2
+Added Pin To Net: NetName=NetJ1_A3 Pin=J1-A3
+Added Pin To Net: NetName=NetJ1_A4 Pin=J1-A4
+Added Pin To Net: NetName=NetJ1_A5 Pin=J1-A5
+Added Pin To Net: NetName=NetJ1_A6 Pin=J1-A6
+Added Pin To Net: NetName=NetJ1_A7 Pin=J1-A7
+Added Pin To Net: NetName=NetJ1_A8 Pin=J1-A8
+Added Pin To Net: NetName=NetJ1_A4 Pin=J1-A9
+Added Pin To Net: NetName=NetJ1_A10 Pin=J1-A10
+Added Pin To Net: NetName=NetJ1_A11 Pin=J1-A11
+Added Pin To Net: NetName=GND Pin=J1-A12
+Added Pin To Net: NetName=GND Pin=J1-B1
+Added Pin To Net: NetName=NetJ1_B2 Pin=J1-B2
+Added Pin To Net: NetName=NetJ1_B3 Pin=J1-B3
+Added Pin To Net: NetName=NetJ1_A4 Pin=J1-B4
+Added Pin To Net: NetName=NetJ1_B5 Pin=J1-B5
+Added Pin To Net: NetName=NetJ1_B6 Pin=J1-B6
+Added Pin To Net: NetName=NetJ1_B7 Pin=J1-B7
+Added Pin To Net: NetName=NetJ1_B8 Pin=J1-B8
+Added Pin To Net: NetName=NetJ1_A4 Pin=J1-B9
+Added Pin To Net: NetName=NetJ1_B10 Pin=J1-B10
+Added Pin To Net: NetName=NetJ1_B11 Pin=J1-B11
+Added Pin To Net: NetName=GND Pin=J1-B12
+Added Pin To Net: NetName=GND Pin=J1-S1
+Added Pin To Net: NetName=GND Pin=J1-S2
+Added Member To Class: ClassName=USB-C_Connectors Member=Component J1 USB4155-03-C_REVA

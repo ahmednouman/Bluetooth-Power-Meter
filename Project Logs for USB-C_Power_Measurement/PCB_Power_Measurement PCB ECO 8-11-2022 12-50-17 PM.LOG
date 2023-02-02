@@ -1,0 +1,10 @@
+Added Component: Designator=S1(GT-TC029B-H025-L1N)
+Add component. Clean all parameters for all variants
+Added Component: Designator=S2(GT-TC029B-H025-L1N)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetQ2_3 Pin=S1-1
+Added Pin To Net: NetName=GND Pin=S1-2
+Added Pin To Net: NetName=GND Pin=S2-1
+Added Pin To Net: NetName=NetC12_2 Pin=S2-2
+Added Member To Class: ClassName=Microcontroller Member=Component S1 GT-TC029B-H025-L1N
+Added Member To Class: ClassName=Microcontroller Member=Component S2 GT-TC029B-H025-L1N
