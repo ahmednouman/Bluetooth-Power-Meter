@@ -10,6 +10,9 @@
 INA226 INA(0x45);
 
 char txValue = 0;
+float voltage = 0;
+float current = 0;
+float wattage = 0;
 
 #include "esp_err.h"
 #include "esp_pm.h"
@@ -158,40 +161,18 @@ void setup() {
 }
 
 void loop() {
-  if(deviceConnected){
-    //Serial.println("Device Connected");
-    //txValue = INA.getBusVoltage(), 3;
-    txValue = 'V';
-    char txString[8];
-    dtostrf(txValue, 1, 2, txString);
+  if(deviceConnected)
+  {
+    voltage = INA.getBusVoltage();
+    current = INA.getCurrent_mA();
+    wattage = voltage * (current/1000) ;
+    char txString[100];
+    
+    sprintf(txString, "[V%.2f][C%.2f][W%.2f]", voltage, current, wattage);
 
     pCharacteristic->setValue(txString);
     pCharacteristic->notify();
-    Serial.println("sent value " + String(txString));
 
-    txValue = INA.getBusVoltage();
-   // char txString[8];
-    dtostrf(txValue, 1, 2, txString);
-
-    pCharacteristic->setValue(txString);
-    pCharacteristic->notify();
-    Serial.println("sent value VOLTAGE " + String(txString));
-
-    txValue = 'C';
-    //char txString[8];
-    dtostrf(txValue, 1, 2, txString);
-
-    pCharacteristic->setValue(txString);
-    pCharacteristic->notify();
-    Serial.println("sent value " + String(txString));
-
-    txValue = INA.getCurrent_mA();
-//    char txString[8];
-    dtostrf(txValue, 1, 2, txString);
-
-    pCharacteristic->setValue(txString);
-    pCharacteristic->notify();
-    Serial.println("sent value Current " + String(txString));
     delay(1000);
     
   }

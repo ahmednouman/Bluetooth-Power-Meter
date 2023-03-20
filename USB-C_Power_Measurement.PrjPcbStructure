@@ -1,1 +1,4 @@
-Record=TopLevelDocument|FileName=Microcontroller.SchDoc
+Record=TopLevelDocument|FileName=Microcontroller.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Microcontroller.SchDoc|FileName=Power_Measurement.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Microcontroller.SchDoc|FileName=Power_Regulation.SchDoc|SheetNumber= 
+Record=NoMainPathDocument|SourceDocument=Microcontroller.SchDoc|FileName=USB-C_Connectors.SchDoc|SheetNumber= 
